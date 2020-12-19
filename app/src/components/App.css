@@ -5,7 +5,21 @@ body {
   height: var(--full-height, initial);
 }
 
+#root {
+  height: var(--full-height, initial);
+  overflow: auto;
+}
+
 .app {
+  background-image: url("https://localhost:3000/felt.jpg");
+}
+
+.app-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .app-title {
