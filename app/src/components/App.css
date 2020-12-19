@@ -6,11 +6,71 @@ body {
 }
 
 .app {
+    padding-top: 200px;
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+
+}
+.app-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+.app-jack{
+    position: absolute;
+    max-width: 150px;
+    opacity: 0.7;
+
+
+}
+.app-jack1{
+    left: calc(50% - 375px) ;
+}
+.app-jack2{
+    left: calc(50% - 215px) ;
+}
+.app-jack3{
+    left: calc(50% - 55px) ;
+}
+.app-jack4{
+    left: calc(50% + 105px) ;
+}
+.app-jack5{
+    left: calc(50% + 265px) ;
+}
+
+.app-image {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+}
+.app-cover {
+    background-color: black;
+    opacity: 0.4;
+    position : absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
 }
 
 .app-title {
   font-size: 7.3em;
-  margin-top: 200px;
+
   text-align: center;
 }
 
@@ -18,4 +78,8 @@ body {
   margin-top: 40px;
   font-size: 2.3em;
   text-align: center;
+}
+.app-button-top{
+    margin-top: 275px;
+
 }
