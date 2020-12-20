@@ -11,25 +11,9 @@ body {
 }
 
 .app {
-  background-image: url("https://localhost:3000/felt.jpg");
-}
-
-.app-image {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.app-title {
-  font-size: 7.3em;
-  margin-top: 200px;
-  text-align: center;
-}
-
-.app-button {
-  margin-top: 40px;
-  font-size: 2.3em;
-  text-align: center;
 }

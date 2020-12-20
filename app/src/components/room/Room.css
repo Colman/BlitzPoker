@@ -1,0 +1,37 @@
+.room {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.room-top {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: black;
+  border: solid #666;
+  border-width: 0 0 1px 0;
+  color: #ccc;
+}
+
+.room-key {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.room-main {
+  text-align: center;
+  height: calc(100% - 60px);
+}
+
+.room-bottom {
+  display: flex;
+  height: 20%;
+  text-align: left;
+}
+
+.room-space {
+  flex: 2;
+}

@@ -1,0 +1,47 @@
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  background-size: cover;
+  color: white;
+}
+
+.menu-cover {
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.menu-title {
+  font-size: 7.3em;
+  margin: 100px 0 0 75px;
+}
+
+.menu-content {
+  position: relative;
+}
+
+.menu-main {
+  margin: 100px 0 0 75px;
+}
+
+.menu-button {
+  display: block;
+  margin-top: 40px;
+  font-size: 2.3em;
+  cursor: pointer;
+}
+
+.menu-button-top {
+  margin-top: 275px;
+}
+
+.menu-join {
+}
